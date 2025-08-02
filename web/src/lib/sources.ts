@@ -8,6 +8,7 @@ import {
   DropboxIcon,
   GithubIcon,
   GitlabIcon,
+  AzureIcon,
   GlobeIcon,
   GmailIcon,
   GongIcon,
@@ -125,6 +126,12 @@ export const SOURCE_METADATA_MAP: SourceMap = {
     displayName: "Gitlab",
     category: SourceCategory.CodeRepository,
     docs: "https://docs.onyx.app/connectors/gitlab",
+  },
+  azure_devops: {
+    icon: AzureIcon,
+    displayName: "Azure DevOps",
+    category: SourceCategory.CodeRepository,
+    docs: "https://docs.onyx.app/connectors/azure_devops",
   },
   confluence: {
     icon: ConfluenceIcon,

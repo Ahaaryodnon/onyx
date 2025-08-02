@@ -391,6 +391,7 @@ export enum ValidSources {
   Web = "web",
   GitHub = "github",
   GitLab = "gitlab",
+  AzureDevops = "azure_devops",
   Slack = "slack",
   GoogleDrive = "google_drive",
   Gmail = "gmail",

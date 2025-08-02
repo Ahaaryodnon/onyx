@@ -282,6 +282,26 @@ export const connectorConfigs: Record<
       },
     ],
   },
+  azure_devops: {
+    description: "Configure Azure DevOps connector",
+    values: [
+      {
+        type: "text",
+        query: "Enter the organization name:",
+        label: "Organization",
+        name: "organization",
+        optional: false,
+      },
+      {
+        type: "text",
+        query: "Enter the project name:",
+        label: "Project",
+        name: "project",
+        optional: false,
+      },
+    ],
+    advanced_values: [],
+  },
   gitbook: {
     description: "Configure GitBook connector",
     values: [
